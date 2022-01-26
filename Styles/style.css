@@ -56,6 +56,10 @@ li a{
     font-size: 24px;
     padding: 15;
 }
+a:hover {
+    background-color: #fffffc;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
