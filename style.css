@@ -1,0 +1,63 @@
+header {
+    background-color: FFADAD;
+}
+
+#team {
+    background-color: FFD6A5;
+}
+
+#teamlist {
+    background-color: FFD6A5;
+}
+
+#contents {
+    background-color: FDFFB6;
+}
+
+#contentslist {
+    background-color: FDFFB6;
+}
+
+#AboutMe {
+    background-color: CAFFBF;
+}
+
+#AboutMeP {
+    background-color: CAFFBF;
+}
+
+#Hobby {
+    background-color: 9BF6FF;
+}
+
+#HobbyP {
+    background-color: 9BF6FF;
+}
+
+#Hobby2 {
+    background-color: A0C4FF;
+}
+
+#Hobby2P {
+    background-color: A0C4FF;
+}
+
+#ContactMe {
+    background-color: BDB2FF;
+}
+
+#Github {
+    background-color: BDB2FF;
+}
+
+#LinkedIn {
+    background-color: BDB2FF;
+}
+
+main {
+    background-color: FFFFFC;
+}
+
+footer {
+    border: 1rem solid;
+}
