@@ -1,78 +1,65 @@
+html {
+    background-color: #fffffc;
+    
+}
+
+body {
+    text-align: center;
+}
+
 header {
-    background-color: FFADAD;
+    background-color: #ffadad;
     border-radius: 25px;
 }
 
 #team {
-    background-color: FFD6A5;
+    background-color: #ffd6a5;
     border-radius: 25px;
 }
 
-#teamlist {
-    background-color: FFD6A5;
+#toc {
+    background-color: #fdffb6;
     border-radius: 25px;
 }
 
-#contents {
-    background-color: FDFFB6;
-    border-radius: 25px;
+nav {
+    display: grid;
 }
 
-#contentslist {
-    background-color: FDFFB6;
-    border-radius: 25px;
-}
-
-#AboutMe {
-    background-color: CAFFBF;
-    border-radius: 25px;
-}
-
-#AboutMeP {
-    background-color: CAFFBF;
+main {
+    background-color: #caffbf;
     border-radius: 25px;
 }
 
 #Hobby {
-    background-color: 9BF6FF;
-    border-radius: 25px;
-}
-
-#HobbyP {
-    background-color: 9BF6FF;
+    background-color: #9bf6ff;
     border-radius: 25px;
 }
 
 #Hobby2 {
-    background-color: A0C4FF;
+    background-color: #A0C4FF;
     border-radius: 25px;
-}
-
-#Hobby2P {
-    background-color: A0C4FF;
-    border-radius: 25px;
-}
-
-#ContactMe {
-    background-color: BDB2FF;
-    border-radius: 25px;
-}
-
-#Github {
-    background-color: BDB2FF;
-    border-radius: 25px;
-}
-
-#LinkedIn {
-    background-color: BDB2FF;
-    border-radius: 25px;
-}
-
-main {
-    background-color: FFFFFC;
 }
 
 footer {
-    border: 1rem solid;
-    border-radius: 25px;
+    background-color: #BDB2FF;
+    border-radius: 25px;   
+}
+footer p{
+    display: inline-block;
+}
+li {
+    display: inline-block;
+}
+li a{
+    text-align: center;
+    font-size: 24px;
+    padding: 15;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
 }
