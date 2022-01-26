@@ -50,7 +50,9 @@ footer p{
 }
 li {
     display: inline-block;
+    margin: 0 50px;
 }
+
 li a{
     text-align: center;
     font-size: 24px;
