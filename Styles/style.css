@@ -1,57 +1,71 @@
 header {
     background-color: FFADAD;
+    border-radius: 25px;
 }
 
 #team {
     background-color: FFD6A5;
+    border-radius: 25px;
 }
 
 #teamlist {
     background-color: FFD6A5;
+    border-radius: 25px;
 }
 
 #contents {
     background-color: FDFFB6;
+    border-radius: 25px;
 }
 
 #contentslist {
     background-color: FDFFB6;
+    border-radius: 25px;
 }
 
 #AboutMe {
     background-color: CAFFBF;
+    border-radius: 25px;
 }
 
 #AboutMeP {
     background-color: CAFFBF;
+    border-radius: 25px;
 }
 
 #Hobby {
     background-color: 9BF6FF;
+    border-radius: 25px;
 }
 
 #HobbyP {
     background-color: 9BF6FF;
+    border-radius: 25px;
 }
 
 #Hobby2 {
     background-color: A0C4FF;
+    border-radius: 25px;
 }
 
 #Hobby2P {
     background-color: A0C4FF;
+    border-radius: 25px;
 }
 
 #ContactMe {
     background-color: BDB2FF;
+    border-radius: 25px;
 }
 
 #Github {
     background-color: BDB2FF;
+    border-radius: 25px;
 }
 
 #LinkedIn {
     background-color: BDB2FF;
+    border-radius: 25px;
 }
 
 main {
@@ -60,4 +74,5 @@ main {
 
 footer {
     border: 1rem solid;
+    border-radius: 25px;
 }
