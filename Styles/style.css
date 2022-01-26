@@ -60,6 +60,10 @@ a:hover {
     background-color: #FFC6FF;
 }
 
+li a:hover {
+    background-color: #FFC6FF;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
