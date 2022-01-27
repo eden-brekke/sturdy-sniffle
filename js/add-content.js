@@ -1,7 +1,7 @@
 alert('Hello! Happy to have you here! :)')
 
 function promptUserCats() {
-    let question = prompt("Do you like cats? please enter yes or no")
+    let question = prompt("Do you like cats? please enter yes or no").toLowerCase();
     if (question == "yes") {
         alert("Very exciting! Enjoy my pictures of my cats!");
         document.write("<h3> Hope you enjoyed my furbabies! :) </h3>");
@@ -27,3 +27,39 @@ function pressAButton(){
 }
 
 pressAButton();
+
+function punkImgCountPrompter(whichPrompt){
+    //step 1L: take in dynamic prompt
+    //step 2: if prompt is empty, pass in Q how many pumpkin pics u want?
+    // Step 1: ask them about the prompt
+    if(!whichPrompt){
+        whichPrompt = "How many pictures of Pumpkin would you like?";
+    }
+    let pumpkinCount = prompt(whichPrompt);
+    // Need to act a validation check here
+    if(pumpkinCount === ''){
+        //User gave no input, prompt again
+        let message = 'How many pictures of Pumpkin would you like? ';
+        let error = "Please enter a number between 1 and 3";
+        punkImgCountPrompter(message + error);
+        console.log('An empty input');
+    }
+    if(pumpkinCount == 1){
+        for(let i=0; i < 1; i++){
+            document.write('<img src="/024.jpg">');
+    }}
+    
+    if(pumpkinCount ==2){
+        for(let i=0; i < 2; i++){
+            document.write('<img src="/024.jpg">');
+            document.write('<img src="/025.jpg">');
+    }}
+    
+    if(pumpkinCount == 3){
+        for(let i=0; i < 3; i++){
+                    document.write('<img src="/024.jpg">');
+                    document.write('<img src="/025.jpg">');
+                    document.write('<img src="/0.27.jpg">');
+        }}  
+    }
+punkImgCountPrompter();
