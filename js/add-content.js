@@ -1,30 +1,13 @@
-// let firstName = prompt("What's your name?");cd 
-// let age = prompt("How old are you?");
-// let petsName = prompt("What is your pets name?");
-let tod = prompt("What hour is it?");
-// console.log("time of day", tod, typeof tod);
+alert('Hello! Happy to have you here! :)')
 
-if(tod > 18) {
-    alert('Good evening!')
-} else if(tod > 12) {
-    alert('Good Afternoon!');
-} else if(tod >= 0) {
-    alert('Good Morning!');
+let question = prompt("Do you like cats? please enter yes or no")
+if (question == "yes") {
+    alert("Very exciting! Enjoy my pictures of my cats!");
+    document.write("<h3> Hope you enjoyed my furbabies! :) </h3>");
+} else if (question == "no") {
+    alert("That's okay, maybe some pictures can change your mind?");
+    document.write("<h3> I hope Jack and Pumpkin still brought you joy :) </h3>");
 } else {
-    alert('Welcome')
+    alert("Not a valid response, please enjoy pictures of my cats!")
+    document.write("<h3>You may not read directions well, but I hope you enjoyed my furbabies :) </h3>");
 }
-
-// Conditionals 
-// based on something else -> logic gate ->
-// 1 > 5 -> False
-// 'Josh' = 7 -> False
-if(firstName === 'Alex'){
-    alert('Zork loves you')
-} 
-else {
-    alert('Imposter!')
-}
-
-alert('Hello ' + firstName + " you are " + age + " years old. Your pets name is " + petsName + "!");
-
-document.write('<h3>' + 'Hello ' + firstName + '</h3>');
