@@ -11,3 +11,10 @@ if (question == "yes") {
     alert("Not a valid response, please enjoy pictures of my cats!")
     document.write("<h3>You may not read directions well, but I hope you enjoyed my furbabies :) </h3>");
 }
+
+let text; 
+if (confirm("Press a button!") == true) {
+    document.write("<h4> You pressed OK!</h4>");
+} else {
+    document.write("<h4> You pressed cancel!</h4>");
+}
