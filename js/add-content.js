@@ -43,7 +43,7 @@ function punkImgCountPrompter(promptImg){
             document.getElementById("imgs").innerHTML += ('<img src="0.27.jpg">');
     }
 
-punkImgCountPrompter();
+//punkImgCountPrompter();
 
 
 //    if(pumpkinCount ==2){
