@@ -28,20 +28,19 @@ function pressAButton(){
 
 pressAButton();
 
-function punkImgCountPrompter(promptImg){
-        if (!promptImg){
-        promptImg = "How many pictures of Pumpkin would you like?";
-    }
-
-   let pumpkinCount = prompt(promptImg)
+function punkImgCountPrompter(){
+        
+   let pumpkinCount = prompt("How many pictures of Pumpkin would you like?")
 
     if(pumpkinCount === ""){
         let error = ' please enter a number between 1 and 3 '
-        punkImgCountPrompter(promptImg + error);
-    }   else if(pumpkinCount <=3 ){
-        for(let i=pumpkinCount; i < 3; i++);    }
-            document.getElementById("imgs").innerHTML += ('<img src="0.27.jpg">');
+        punkImgCountPrompter();
+    }   else if (pumpkinCount <=3 ){
+        for(let i=0; i < pumpkinCount; i++){
+            document.getElementById("imgs").innerHTML += ('<img src="0.27.jpg">'); 
+        }
     }
+}
 
 //punkImgCountPrompter();
 
