@@ -28,38 +28,34 @@ function pressAButton(){
 
 pressAButton();
 
-function punkImgCountPrompter(whichPrompt){
-    //step 1L: take in dynamic prompt
-    //step 2: if prompt is empty, pass in Q how many pumpkin pics u want?
-    // Step 1: ask them about the prompt
-    if(!whichPrompt){
-        whichPrompt = "How many pictures of Pumpkin would you like?";
+function punkImgCountPrompter(promptImg){
+        if (!promptImg){
+        promptImg = "How many pictures of Pumpkin would you like?";
     }
-    let pumpkinCount = prompt(whichPrompt);
-    // Need to act a validation check here
-    if(pumpkinCount === ''){
-        //User gave no input, prompt again
-        let message = 'How many pictures of Pumpkin would you like? ';
-        let error = "Please enter a number between 1 and 3";
-        punkImgCountPrompter(message + error);
-        console.log('An empty input');
-    }
-    if(pumpkinCount == 1){
-        for(let i=0; i < 1; i++){
-            document.write('<img src="024.jpg">');
-    }}
 
-    if(pumpkinCount ==2){
-        for(let i=0; i < 2; i++){
-            document.write('<img src="024.jpg">');
-            document.write('<img src="025.jpg">');
-    }}
-    
-    if(pumpkinCount == 3){
-        for(let i=0; i < 3; i++){
-                    document.write('<img src="024.jpg">');
-                    document.write('<img src="025.jpg">');
-                    document.write('<img src="0.27.jpg">');
-        }}  
+   let pumpkinCount = prompt(promptImg)
+
+    if(pumpkinCount === ""){
+        let error = ' please enter a number between 1 and 3 '
+        punkImgCountPrompter(promptImg + error);
+    }   else if(pumpkinCount <=3 ){
+        for(let i=pumpkinCount; i < 3; i++);    }
+            document.getElementById("imgs").innerHTML += ('<img src="0.27.jpg">');
     }
+
 punkImgCountPrompter();
+
+
+//    if(pumpkinCount ==2){
+//        for(let i=0; i < 2; i++){
+//            document.write('<img src="024.jpg">');
+//            document.write('<img src="025.jpg">');
+//    }}
+    
+//   if(pumpkinCount == 3){
+//        for(let i=0; i < 3; i++){
+//                    document.write('<img src="024.jpg">');
+//                    document.write('<img src="025.jpg">');
+//                    document.write('<img src="0.27.jpg">');
+//        }}  
+//    }
