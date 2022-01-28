@@ -46,20 +46,20 @@ function punkImgCountPrompter(whichPrompt){
     }
     if(pumpkinCount == 1){
         for(let i=0; i < 1; i++){
-            document.write('<img src="/024.jpg">');
+            document.write('<img src="024.jpg">');
     }}
-    
+
     if(pumpkinCount ==2){
         for(let i=0; i < 2; i++){
-            document.write('<img src="/024.jpg">');
-            document.write('<img src="/025.jpg">');
+            document.write('<img src="024.jpg">');
+            document.write('<img src="025.jpg">');
     }}
     
     if(pumpkinCount == 3){
         for(let i=0; i < 3; i++){
-                    document.write('<img src="/024.jpg">');
-                    document.write('<img src="/025.jpg">');
-                    document.write('<img src="/0.27.jpg">');
+                    document.write('<img src="024.jpg">');
+                    document.write('<img src="025.jpg">');
+                    document.write('<img src="0.27.jpg">');
         }}  
     }
 punkImgCountPrompter();
